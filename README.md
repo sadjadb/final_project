@@ -10,6 +10,7 @@ It covers the typical workflow used by teams, including:
 - Reviewing code before merging.
 
 ## CI/CD Workflow
+
 The project also illustrates how CI/CD can be integrated into the collaboration process.
 CI/CD is responsible for automatically building, testing, and deploying changes.
 
@@ -18,6 +19,10 @@ It demonstrates how automated pipelines help maintain code quality and reduce ma
 Additionally, it shows how teams can quickly detect and fix issues through continuous feedback.
 
 ## How to contribute
+
+By contributing to this repository, participants can practice the complete collaborative development cycle used in real-world software projects.
+
+Here is how you can contribute to the project:
 - Open an issue
 - Create a branch
 - Submit a pull request
