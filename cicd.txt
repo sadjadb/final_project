@@ -1,5 +1,72 @@
-CI/CD is a general term for Continuous Integration and Continuous Developement system.
+CI/CD stands for Continuous Integration and Continuous Delivery/Deployment.
+It’s a set of practices and tools that automate how software is built, tested, and released,
+so teams can ship changes faster and more reliably.
 
-Continuous Integration (CI) is a system that automatically builds and tests the code whenever a change is made to the code.
+Continuous Integration (CI)
 
-Continuous Developement (CD) is a system that deploys new code repeatedly and automatically after going through the CI process.
+Goal: Frequently merge code changes into a shared repository and automatically test them.
+
+How it works:
+
+1. Developers push code to a shared repo (e.g., Git).
+
+2. An automated pipeline builds the app.
+
+3. Automated tests run (unit, integration, etc.).
+
+4. The system reports success or failure immediately.
+
+Why it matters:
+
+- Catches bugs early
+
+- Prevents “it works on my machine” issues
+
+- Keeps the main branch always usable
+
+Common CI tools:
+
+- Jenkins
+
+- GitHub Actions
+
+- GitLab
+
+- CircleCI
+
+Continuous Delivery (CD)
+
+Goal: Automatically prepare code for release to production.
+
+After CI passes:
+
+The system deploys the app to staging/test environments.
+
+Final release to production is a manual decision (one click).
+
+Benefit: You can release anytime with confidence.
+
+Continuous Deployment (also CD)
+
+Goal: Automatically release every change to production without human intervention.
+
+If all tests pass:
+Code goes live immediately.
+
+Benefit: Fastest delivery cycle
+Risk: Requires very strong automated testing and monitoring
+
+CI/CD Pipeline (Simplified Flow):
+Code → Build → Test → Deploy → Monitor
+
+Why companies use CI/CD
+
+- Faster releases
+
+- Higher software quality
+
+- Less manual work
+
+- Lower risk of big failures
+
+- Quick feedback for developers
